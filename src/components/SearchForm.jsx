@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 function SearchForm({ onSearch }) {
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -8,7 +8,7 @@ function NavBar() {
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? 'nav-link nav-link-active' : 'nav-link'
+            isActive ? "nav-link nav-link-active" : "nav-link"
           }
         >
           Home
@@ -16,7 +16,7 @@ function NavBar() {
         <NavLink
           to="/weather"
           className={({ isActive }) =>
-            isActive ? 'nav-link nav-link-active' : 'nav-link'
+            isActive ? "nav-link nav-link-active" : "nav-link"
           }
         >
           Weather
